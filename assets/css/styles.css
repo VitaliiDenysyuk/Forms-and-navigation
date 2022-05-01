@@ -50,8 +50,15 @@ form {
     width: 80%;
     flex-basis: 7%;
 }
+.date {
+    flex-basis: 8.5%;
+    width: 81%;
+}
 .select {
     margin-top: 1rem;
     width: 83%;   
     flex-basis: 9%; 
+}
+input:invalid:required {
+    background-color: rgb(254, 233, 233);
 }
