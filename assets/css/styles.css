@@ -1,191 +1,40 @@
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 body {
-    background-color: rgb(197, 199, 199);
-    width: 200mm;
-}
-.backgroudTask {
-    background-color: black;
+    width: 120mm;
+    height: 150mm;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start;
 }
-.white-field {
-    margin: 5%;
-    height: 250px;
-    flex-basis: 33.33%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.wide-white {
-    flex-basis:80%;
-    flex-direction: column;
-}
-.white-100 {
-    flex-basis:100%;
-    background-color: white;
-}
-.spaceBetween {
-    justify-content: space-between;
-}
-.square {
-    flex-basis: 50%;
-    height: 50%;
-    background-color:#8aa4ff ;
-    animation-name: rotating;
-    animation-duration: 500ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
-}
-h2 {
-    font-size: 40px;
-}
-
-
-.purple-field {
-    margin: 1%;
-    flex-basis: 100%;
-    height: 200px;
-    background-color: #9ca3ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.button {
-    flex-basis: 50%;
-    height: 32%;
-    border-width: 0em;
-    background-color: #908aec;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.uglybutton {
-    width: 25%;
-    flex-basis: 20%;
-    background-color:black;
-    border-width: 0em;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bigWhiteLetter {
-    font-size: 20px;
-    font-stretch: expanded;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    letter-spacing:4pt;
-}
-.normalWhiteLetter {
-    font-size: 12px;
-    font-stretch: expanded;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-.wideLetter {
-    font-size: 12px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.button:hover {
-    box-shadow: 0px 15px 5px -7px #8479ca;
-    transform: translateY(5px);
-    transition: 500ms;
-    cursor: pointer;
-}
-.uglybutton:hover {
-    background-color: #7ee6a1;
-    cursor: pointer;
-}
-.alphaButton {
-    background-color: #21d3fc;
-    color: #b621ff;
-    transition: 700ms;
-}
-.betaButton {
-    background-color: #08aee9;
-    color: #29f498;
-    transition: 700ms;
-}
-.gammaButton {
-    background-color: #fde040;
-    color: #fa7199;
-    transition: 700ms;
-}
-.deltaButton {
-    background-color: #3eecac;
-    color: #ed74e0;
-    transition: 700ms;
-}
-
-
-.alphaButton:hover {
-    color: #21d3fc;
-    background-color: #b621ff;
-    cursor: pointer;
-}
-.betaButton:hover {
-    color: #08aee9;
-    background-color: #29f498;
-    cursor: pointer;
-}
-.gammaButton:hover {
-    color: #fde040;
-    background-color: #fa7199;
-    cursor: pointer;
-}
-.deltaButton:hover {
-    color: #3eecac;
-    background-color: #ed74e0;
-    cursor: pointer;
-}
-
-.clock {
-    flex-basis: 100%;
-    height: 300px; 
-    background-image:url(../images/clock.png);
-    background-size: 35%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.arrow {
-    width: 25%;
-    height: 0.2em;
-    background-color: transparent;
-    animation-name: rotatingArrow;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.noTransparentPartArrow {
-    width: 50%;
-    background-color: black;
+form {
+    flex: 1 1 100%;
     height: 100%;
+    flex-direction: column;
+    background-image: url(../images/flag-of-ukraine.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.application {
+    flex-basis: 20rem;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 0px 5px ;
+}
+.title {
+    font-size:x-large;
+    color:white;
+    margin: 1rem;
+}
+.progress {
+    margin-top: 2rem;
 
 }
-
-@keyframes rotating {
-    0% {transform: rotate(0deg)}
-    50% {transform: rotate(-45deg)}
-    100% {transform: rotate(-90deg);}
+.navigation {
+    margin-top: 2rem;
 }
-
-@keyframes rotatingArrow {
-    0% {transform: rotate(-90deg)}
-    50% {transform: rotate(90deg)}
-    100% {transform: rotate(270deg);}
+.navigation_button {
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
 }
