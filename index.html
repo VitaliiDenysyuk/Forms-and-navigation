@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,33 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Forms and navigation</title>
 </head>
+
 <body>
     <form>
-        <progress class = "progress" max="100" value="20">0/100</progress>
+        <progress class="progress" max="100" value="20">0/100</progress>
         <h1 class="title">Online Application</h1>
         <div class="application">
-
+            <h2 class="page_title">Personal information</h2>
+            <input class="input" type="text" name="firstname" id="firstname" required maxlength="25"
+                placeholder="Firstname">
+            <input class="input" type="text" name="surname" id="surname" required maxlength="35" placeholder="Surname">
+            <input class="input" type="date" name="birthdate" id="birthdate" required min="1850-01-01" max="2100-12-31"
+                placeholder="Birthdate">
+            <input class="input" type="text" name="insurance_number" id="insurance_number" maxlength="35"
+                placeholder="Insurance number">
+            <select class="select" name="family_status" id="family_status">
+                <option value="0" disabled selected>Family status</option>
+                <option value="unmarried">Unmarried</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widow">Widow</option>
+            </select>
         </div>
         <div class="navigation">
-            <button class="navigation_button">&#8592Previous</button>
-            <button class="navigation_button">Next&#8594</button>
+            <button class="navigation_button" formaction="page2.html">Next&#8594</button>
         </div>
     </form>
-    
+
 </body>
+
 </html>
