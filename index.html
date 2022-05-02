@@ -12,14 +12,14 @@
 
 <body>
     <form>
-        <progress class="progress" max="100" value="20">0/100</progress>
+        <progress class="progress" max="100" value="20">20/100</progress>
         <h1 class="title">Online Application</h1>
         <div class="application">
             <h2 class="page_title">Personal information</h2>
-            <input class="input" type="text" name="firstname" id="firstname" required maxlength="25"
+            <input class="input" type="text" name="firstname" id="firstname" required maxlength="25" minlength="2"
                 placeholder="Firstname">
-            <input class="input" type="text" name="surname" id="surname" required maxlength="35" placeholder="Surname">
-            <input class="input date" type="date" name="birthdate" id="birthdate" required min="1850-01-01" max="2100-12-31"
+            <input class="input" type="text" name="surname" id="surname" required maxlength="35" minlength="2" placeholder="Surname">
+            <input class="input date" type="date" name="birthdate" id="birthdate"  min="1850-01-01" max="2100-12-31"
                 placeholder="Birthdate">
             <input class="input" type="text" name="insurance_number" id="insurance_number" maxlength="35"
                 placeholder="Insurance number">

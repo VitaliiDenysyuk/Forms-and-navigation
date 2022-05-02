@@ -10,14 +10,22 @@
 </head>
 <body>
     <form>
-        <progress class = "progress" max="100" value="40">0/100</progress>
+        <progress class = "progress" max="100" value="40">40/100</progress>
         <h1 class="title">Online Application</h1>
-        <div class="application">
-
+        <div class="application page2">
+            <h2 class="page_title">Address</h2>
+            <input class="input" type="text" name="street" id="street"  maxlength="45" minlength="2"
+                placeholder="Street, nbr">
+                <input class="input" type="text" name="city" id="city"  maxlength="45" minlength="2"
+                placeholder="City">
+                <input class="input" type="text" name="postcode" id="postcode"  maxlength="45" minlength="2" pattern="\d*"
+                placeholder="Postcode">
+                <input class="input" type="text" name="country" id="country"  maxlength="45" minlength="2"
+                placeholder="Country">
         </div>
         <div class="navigation">
             <button class="navigation_button" formaction="index.html">&#8592Previous</button>
-            <button class="navigation_button" formaction="index.html">Next&#8594</button>
+            <button class="navigation_button" formaction="page3.html">Next&#8594</button>
         </div>
     </form>
     
