@@ -1,5 +1,5 @@
 body {
-    width: 150mm;
+    width: 140mm;
     height: 150mm;
     display: flex;
     justify-content: flex-start;
@@ -88,7 +88,7 @@ input:invalid:required {
 }
 
 .page_generalCondition {
-    width: 50%;
+    width: 60%;
     padding: 5%;
     flex-basis: 50%;
     text-align: justify;
