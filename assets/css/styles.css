@@ -1,5 +1,5 @@
 body {
-    width: 120mm;
+    width: 150mm;
     height: 150mm;
     display: flex;
     justify-content: flex-start;
@@ -39,10 +39,7 @@ form {
     width: 83%;
 }
 
-.progress {
-    margin-top: 2rem;
 
-}
 
 .navigation {
     margin-top: 2rem;
@@ -87,7 +84,7 @@ input:invalid:required {
 
 .page_application {
     flex-basis: 30%;
-    width: 80%;
+    width: 70%;
 }
 
 .page_generalCondition {
@@ -97,13 +94,17 @@ input:invalid:required {
 }
 .lorem {
     margin: 1rem;
+    line-height: normal;
 }
 
 input[type="date"]:before {
     content: attr(placeholder);
 }
 
-
 /* input[type="date"]:focus:before {
     content: '';
 } */
+
+.progress {
+    margin-top: 2rem;
+}
