@@ -90,6 +90,7 @@ input:invalid:required {
 .page_generalCondition {
     width: 50%;
     padding: 5%;
+    flex-basis: 50%;
     text-align: justify;
 }
 .lorem {
