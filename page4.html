@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Forms and navigation</title>
+</head>
+
+<body>
+    <form>
+        <progress class="progress" max="100" value="80">80/100</progress>
+        <h1 class="title">Online Application</h1>
+        <div class="application page4">
+            <h2 class="page_title">Application</h2>
+            <input class="input date" type="date" name="entranceDate" id="entranceDate"  min="2022-01-01" max="2100-12-31"
+                placeholder="Preferred entrance date: ">
+            <input class="input" type="number" name="numberPeople" id="numberPeople" min="1"  placeholder="Number of people">
+        </div>
+        <div class="navigation">
+            <button class="navigation_button" formaction="page3.html">&#8592Previous</button>
+            <button class="navigation_button" formaction="index.html">Next&#8594</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
