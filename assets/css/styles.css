@@ -51,6 +51,7 @@ form {
     border-radius: 5px;
     font-size: medium;
     cursor: pointer;
+    height: 2rem;
 }
 
 .input {
