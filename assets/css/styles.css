@@ -50,6 +50,7 @@ form {
     color: white;
     border-radius: 5px;
     font-size: medium;
+    cursor: pointer;
 }
 
 .input {
